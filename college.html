@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icons/">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<style>
+
+</style>
+
+
+
+
+<body>
+    <section class="sub-header" >
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class='bx bx-x' onclick="hideMenu()"></i>
+                <ul class="vk">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- -------------------------------------------about us page---------------------------------------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest college</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid atque est tempore explicabo molestias nostrum modi sequi tenetur! Necessitatibus asperiores reiciendis quos placeat aspernatur natus, ducimus corrupti, iusto doloribus, atque non mollitia. Delectus modi sint tempora reprehenderit rerum fugiat laboriosam, voluptatem consectetur corporis repellendus omnis sequi officia vel suscipit harum qui cumque necessitatibus neque eos perspiciatis iste.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/logo.jpg"  alt="">
+            </div>
+                
+        </div>
+    </section>
+
+ <!-- -------------------------------------------------Call To Action------------------------------------------- -->
+
+
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores explicabo dolore facere minima ipsa eaque quo commodi repellendus vitae officiis <br> molestiae, quidem fugiat eveniet, cum in aut, sapiente praesentium! Eum.</p>
+    <div class="icons">
+       <a id="kv" href=""> <h2>Made with by Akhil Kumar</h2> </a>
+    </div>
+ </section>
+
+
+</body>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</html>
